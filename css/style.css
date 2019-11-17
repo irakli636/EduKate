@@ -232,12 +232,13 @@ body {
 
  .content-main { 
   flex-grow: 1; /* Set the middle element to grow and stretch */
-}
 
+}
 
 .navbar ul {
 
-  margin-left:100px;
+  margin-left:50px;
+  display:inline-block;
 
 
 }
@@ -247,7 +248,7 @@ body {
   display: flex;
   height: 50px;
   display:inline-block;
-  margin:80px 20px;
+  margin:80px 10px;
 
 }
 
@@ -257,6 +258,142 @@ body {
 }
 
 .search-container {
-  width: 100px;
-  height:30px;
+  display:inline-block;
+  padding-left: 80px;
+  width: 300px;
 }
+
+.placehold {
+
+  width: 200px;
+  background:  #F8F9F8;
+  border:none;
+  border-radius: 10%;
+  height: 40px;
+  text-align: center;
+  outline:none;
+}
+
+.search-container button {
+  
+  margin-left:25px;
+  border:none;
+  width: 60px;
+  height: 40px;
+  background: orangered;
+  border-radius: 10%;
+ 
+}
+
+.fa-search {
+
+  color:white;
+}
+
+.fa-search:hover {
+ 
+  color:yellowgreen;
+  
+}
+
+
+.section {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  
+  
+}
+
+.content-size {
+  width: 280px;
+  display: inline-block;
+  border-radius: 10%;
+ margin-top:50px;
+  height: 450px;
+  border:1px solid black;
+  margin-left:25px;
+  /* background: gray; */
+  
+}
+
+
+.content-size img {
+  width: 100%;
+  margin:0 auto;
+  border-radius:10%;
+  height:100%;
+  display: block;
+
+}
+ 
+.right-box{
+
+  position: absolute;
+  display: inline-block;
+  right:150px;
+}
+
+.right-box-upper {
+
+  width: 400px;
+  border-radius: 10%;
+  margin-top:50px;
+  border:1px solid black;
+  height: 200px;
+  margin-left:25px;
+  /* background: gray; */
+}
+
+
+.right-box-upper img {
+  width:100%;
+  height:100%;
+  border-radius: 10%;
+  display: block;
+  margin: 0 auto; 
+}
+
+
+.right-box-half {
+
+  width: 150px;
+  display: inline-block;
+  border-radius: 10%;
+  margin-top:50px;
+  height: 200px;
+  
+  margin-left: 50px;
+  /* background: gray; */
+}
+
+
+.right-box-half img {
+  width:100%;
+  height:100%;
+  border-radius: 10%;
+  display: block;
+
+}
+
+
+.right-box img {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.right-box img:hover {
+  -webkit-transform: rotate(-10deg);
+  border: 2px solid #66d808;
+  box-shadow: 0 0 1px #b3ff51, 0 0 2px #b3ff51, 0 0 6px #b3ff51, 0 0 12px #b3ff51, inset 0 0 1px #b3ff51, inset 0 0 2px #b3ff51, inset 0 0 6px #b3ff51, inset 0 0 12px #b3ff51;
+  -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+   -ms-transform: rotate(-10deg);
+       transform: rotate(-10deg);
+}
+
+
